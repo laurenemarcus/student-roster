@@ -1,9 +1,7 @@
 studentRoster.controller("StudentsCtrl", function StudentCtrl($scope) {
-  $scope.students = [
-    { name: "Hilda Swedish" },
-    { name: "Yolanda Rowanda" },
-    { name: "Peter Francais" },
-    { name: "Rupert Spanglish" },
-    { name: "Jose Koslowski" },
-  ]
+  $scope.students = [];
+  $scope.addStudent = function() {
+    $scope.students.push({ name: $scope.studentName });
+    $scope.studentName = null;
+  };
 });
