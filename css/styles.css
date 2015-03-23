@@ -1,0 +1,17 @@
+h1 {
+  font-family: Times, Helvetica;
+  color: #6CB591;
+}
+
+h2 {
+  font-family: Georgia, Helvetica;
+  color: #687676;
+}
+
+body {
+  background-color: #D1EDED;
+}
+
+:hover {
+  color: #CC0000;
+}
